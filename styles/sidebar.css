@@ -1,0 +1,85 @@
+
+.sidebar{
+  background-color: rgba(255, 255, 255, 0);
+  width: 85px;
+  top: 61px;
+  left: 2px;
+  bottom: 0;
+  position: fixed;
+  z-index: 110;
+
+}
+
+.sidebar-button{
+    max-width: 68px;
+    height: 74px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.sidebar-button .sidebar-tooltip{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 300;
+    right:-25px;
+    bottom: 4px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    z-index: 120;
+    opacity: 0;
+    transition: opacity 0.15s;
+    transition-delay: 0;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.sidebar-button:hover .sidebar-tooltip{
+    opacity: 1;
+    transition-delay: 0.4s;
+
+}
+
+.sidebar-button:hover{
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+}
+
+.sidebar-button div{
+    font-family: Roboto, Arial;
+    font-size: 10px;
+}
+
+.sidebar-button img{
+    margin-bottom: 8px;
+}
+
+.home-icon{
+    height: 24px;
+}
+
+.shorts-icon{
+    height: 24px;
+}
+
+.sub-icon{
+    height: 24px;
+}
+
+.you-icon{
+    height: 20px;
+}
+
+.downloads-icon{
+    height: 24px;
+}
